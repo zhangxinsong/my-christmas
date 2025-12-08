@@ -1,0 +1,83 @@
+{
+  "loader": {
+    "filePattern": "(${i})",
+    "folder": "./images/",
+    "maxImages": 500,
+    "maxConsecutiveFails": 10,
+    "supportedExtensions": [".jpg", ".jpeg", ".png", ".webp", ".gif", ".bmp"]
+  },
+  "performance": {
+    "autoScale": true,
+    "maxPhotos": 50,
+    "quality": "auto",
+    "targetFPS": 60,
+    "minFPS": 30
+  },
+  "particles": {
+    "tree": {
+      "count": 1500,
+      "treeHeight": 24,
+      "treeRadius": 8
+    },
+    "dust": {
+      "count": 2000,
+      "enabled": true
+    },
+    "snow": {
+      "count": 1000,
+      "enabled": true,
+      "fallSpeedMin": 0.1,
+      "fallSpeedMax": 0.3,
+      "swaySpeed": 0.05
+    }
+  },
+  "gestures": {
+    "fist": {
+      "threshold": 1.5,
+      "description": "握拳变成树"
+    },
+    "pinch": {
+      "threshold": 0.35,
+      "description": "捏合聚焦照片"
+    },
+    "open": {
+      "threshold": 1.7,
+      "description": "张开散开照片"
+    },
+    "smoothing": 0.3,
+    "cooldownMs": 500
+  },
+  "camera": {
+    "fov": 42,
+    "near": 0.1,
+    "far": 1000,
+    "defaultZ": 50
+  },
+  "colors": {
+    "background": "0x050d1a",
+    "fog": "0x050d1a",
+    "champagneGold": "0xffd966",
+    "deepGreen": "0x03180a",
+    "accentRed": "0x990000"
+  },
+  "postprocessing": {
+    "bloom": {
+      "enabled": true,
+      "threshold": 0.65,
+      "strength": 0.5,
+      "radius": 0.4
+    },
+    "toneMappingExposure": 2.2
+  },
+  "audio": {
+    "enabled": true,
+    "autoplay": true,
+    "defaultVolume": 0.5,
+    "fadeIn": true,
+    "fadeInDuration": 2000,
+    "sources": [
+      "./music/christmas.mp3",
+      "./music/christmas.ogg"
+    ]
+  }
+}
