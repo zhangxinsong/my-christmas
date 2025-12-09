@@ -1,0 +1,100 @@
+<<<<<<< HEAD
+# Claude Code 配置
+.claude/
+
+# Python 缓存
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+
+# 虚拟环境
+venv/
+env/
+ENV/
+.venv
+
+# 编辑器和 IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+Thumbs.db
+
+# 日志文件
+*.log
+
+# 临时文件
+*.tmp
+*.bak
+*.backup
+*_original.*
+
+# 图片备份（压缩脚本生成）
+images/*_original.*
+
+# 操作系统文件
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+desktop.ini
+
+# 测试和覆盖率
+.coverage
+.pytest_cache/
+htmlcov/
+.tox/
+
+# 构建产物
+dist/
+build/
+*.egg-info/
+
+# Node.js（如果将来使用）
+node_modules/
+package-lock.json
+yarn.lock
+
+# 环境变量
+.env
+.env.local
+.env.*.local
+
+# 个人配置
+config.local.json
+
+# 大文件（避免上传过大的资源）
+*.psd
+*.ai
+*.sketch
+
+# 视频文件（避免上传录制的视频）
+*.mp4
+*.webm
+*.avi
+*.mov
+
+# 音频文件（避免上传大文件音乐，但保留 README）
+# music/*.mp3
+# music/*.ogg
+# music/*.wav
+# !music/README.md
+
+# 图片文件夹中的图片（可选：如果不想上传用户照片）
+# images/*.jpg
+# images/*.jpeg
+# images/*.png
+# images/*.webp
+# images/*.gif
+# images/*.bmp
+# !images/README.md
+=======
+.claude/
+>>>>>>> c018886291a8d784234286fe69e92afd4780134c
