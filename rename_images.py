@@ -65,11 +65,6 @@ def rename_images(folder_path='./images', output_ext='.jpg', auto_confirm=False)
         print(f"  temp_{i}{output_ext} -> ({i}){output_ext}")
 
     print(f"\n完成! 已重命名 {len(images)} 张图片")
-    print(f"\n现在可以将 christmas.html 中的配置修改为:")
-    print(f"  autoScanLocal: true,")
-    print(f"  scanCount: {len(images)},")
-    print(f"  filePattern: '(${{i}})',")
-    print(f"  fileExtension: '{output_ext}'")
 
 if __name__ == '__main__':
     print("=" * 50)
