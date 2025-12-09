@@ -94,3 +94,6 @@ config.local.json
 # images/*.gif
 # images/*.bmp
 # !images/README.md
+
+# 本地历史记录插件
+.history/
